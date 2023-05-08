@@ -1,0 +1,22 @@
+create table store (id INTEGER PRIMARY KEY, item TEXT, price INTEGER, quantity INTEGER );
+INSERT INTO store VALUES (1, "Fruit Salad", 2.50, 50);
+INSERT INTO store VALUES (2, "Oranges", 1, 75);
+INSERT INTO store VALUES (3, "Kiwi", .5,72);
+INSERT INTO store VALUES (4, "Apples", .75, 75);
+INSERT INTO store VALUES (5, "Vanilla Milk Shake", 5, 10);
+INSERT INTO store VALUES (6, "Spicy Chicken Sandwitch", 7.50, 10);
+INSERT INTO store VALUES (7, "Chicken Club Sandwitch Deluxe", 10, 10);
+INSERT INTO store VALUES (8, "Speciality Mac & Cheese", 20, 5);
+INSERT INTO store VALUES (9, "Fried Chicken", 12.25, 5);
+INSERT INTO store VALUES (10, "Cheese Burger", 7.99, 5);
+INSERT INTO store VALUES (11, "Burger", 6.99, 5);
+INSERT INTO store VALUES (12, "Fries", 4.99, 5);
+INSERT INTO store VALUES (13, "Large Soda", 2.99, 2);
+INSERT INTO store VALUES (14, "Small Soda", .99, 2);
+INSERT INTO store VALUES (15, "Juice", 2.99, 2);
+
+SELECT * from store
+ORDER BY price desc;
+SELECT * from store
+ORDER BY quantity asc;
+
